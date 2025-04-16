@@ -23,4 +23,4 @@ async function obtenerPrecios() {
 }
 
 obtenerPrecios();
-setInterval(obtenerPrecios, 300000); // cada 5 min
+setInterval(obtenerPrecios, 60000); // cada 5 min
